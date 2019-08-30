@@ -17,8 +17,8 @@ namespace TestingVariables
        * to multiple
        * lines
        */
-      int customerAge; // Variable initialization
-      customerAge = 30; // Variable assignment
+      int customerAge; // Variable declaration
+      customerAge = 30; // Variable initialization
       Console.WriteLine(customerAge); // Printing variable value
       customerAge = 31;
       Console.WriteLine(customerAge);
