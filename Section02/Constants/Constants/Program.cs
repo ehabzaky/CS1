@@ -13,6 +13,8 @@ namespace Constants
       const double Pi = 3.14;
       Console.WriteLine(Pi);
       Console.WriteLine(5 * Pi);
+      // The following line will not be accepted
+      //Pi = 50;
     }
   }
 }

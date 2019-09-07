@@ -21,6 +21,8 @@ namespace Arithmetic
       Console.WriteLine(multiply);
       int division = Number2 / Number1;
       Console.WriteLine(division);
+      double realDivision = (double)Number2 / (double)Number1;
+      Console.WriteLine(realDivision);
       int remainder = Number2 % Number1;
       Console.WriteLine(remainder);
 
@@ -36,11 +38,11 @@ namespace Arithmetic
 
       /* The following operation is not possible
        * as byte and short data types does not
-       * allow mathematical operations */
+       * allow basic mathematical operations */
 
-      //byte shortNumber1 = 5;
-      //byte shortNumber2 = 10;
-      //byte shortNumber3 = shortNumber1 + shortNumber2;
+      //short shortNumber1 = 5;
+      //short shortNumber2 = 10;
+      //short shortNumber3 = shortNumber1 + shortNumber2;
 
       Number1++;
       Console.WriteLine(Number1);

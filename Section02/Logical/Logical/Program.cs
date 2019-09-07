@@ -13,12 +13,12 @@ namespace Logical
       int employeeAge = 40;
       int employmentYears = 5;
       bool isMarried = false;
-      bool isReceivedPenalties = true;
+      bool isPenaltiesReceived = true;
       bool isBonus1Allowed = employeeAge > 30 && isMarried;
       Console.WriteLine(isBonus1Allowed);
-      bool isBonus2Allowed = employeeAge > 30 || employmentYears > 10;
+      bool isBonus2Allowed = employeeAge >= 30 || employmentYears > 10;
       Console.WriteLine(isBonus2Allowed);
-      bool isBonus3Allowed = employmentYears > 20 && !isReceivedPenalties;
+      bool isBonus3Allowed = employmentYears > 20 && !isPenaltiesReceived;
       Console.WriteLine(isBonus3Allowed);
     }
   }
